@@ -1,0 +1,33 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.link {
+  color: red;
+
+}
+
+.link:hover {
+  color: blueviolet;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layout__block {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+}
+
+.layout__item {
+  border: 2px solid red;
+  height: 72vh;
+}
